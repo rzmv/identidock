@@ -24,9 +24,9 @@ def mainpage():
     header = "<html><head><title>Identidock</title></head><body>"
     body = '''<form method="POST">
               Hello <input type="text" name="name" value="{}">
-              <input type="submit" value="submit">
+              <button>Sumbit</button>
               </form>
-              <p> You look like a:
+              <p> You look like a: </p>
               <img src="/monster/{}"/>
            '''.format(name, name_hash)
     footer = "</body></html>"
