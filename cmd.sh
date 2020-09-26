@@ -5,7 +5,7 @@ set -e
 if [ "$ENV" = "DEV" ]; then
     echo "Running Dev Server"
     exec python "identidock.py"
-elif [ "$ENV" = "UNIT"]; then
+elif [ "$ENV" = "UNIT" ]; then
     echo "Running Unit Tests"
     exec python "tests.py"
 else
