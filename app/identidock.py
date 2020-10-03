@@ -10,7 +10,7 @@ import html
 app = Flask(__name__)
 manager = Manager(app)
 cache = redis.StrictRedis(host="redis", port=6379, db=0)
-default_name = "Max Razumov"
+default_name = "Washington Irving"
 salt = "asdfdasfdslkjtioejwtiogrhgdr"
 
 
