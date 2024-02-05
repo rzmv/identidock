@@ -11,7 +11,7 @@ pipeline {
 
         stage("Test") {
             steps {
-                sh "docker run --env ENV="UNIT" testapp"
+                sh "docker run --env ENV='UNIT' testapp"
             }
         }
     }
